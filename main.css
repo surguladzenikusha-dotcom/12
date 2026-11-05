@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   background-color: white;
+   width: 90%;
+   max-width: 900px;
+   margin:auto;
+   padding: 30px;
+}
+
+h5{
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+h1{
+    font-size: 2.5rem;
+    
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+
+.info-1 p,
+.info-2 p,
+.info-3 p,
+.info-4 p {
+    color: #10266e;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+.name{
+    line-height: 2.5;
+}
+
+.name input{
+    width: 25%;
+    height: 32px;
+    border: 1px solid #555;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+.service{
+    line-height: 2.5;
+    font-size: 14px;
+}
+
+
+.service input[type="radio"]{
+    margin: 10px;
+  
+}
+
+
+textarea{
+    width: 65%;
+    height: 60px;
+    border: 1px solid #555;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+
+input[type="date"]{
+    border: 1px solid #555;
+    padding: 8px;
+    height: 35px;
+}
+
+
+select{
+    padding: 8px;
+    width: 150px;
+    border: 1px solid #555;
+}
+
+
+.approval{
+    line-height: 3;
+}
+
+
+.approval input {
+    height: 32px;
+    width: 30%;
+    border: 1px solid #555;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+.service-personnel{
+    line-height: 2.5;
+}
+
+
+.service-personnel input[type="text"]{
+    width: 25%;
+    height: 32px;
+    border: 1px solid #555;
+    padding: 5px;
+    
+}
+
+
+.service-personnel input[type="date"]{
+    margin-left: 10px;
+    
+}
+
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline: 2px solid #10266e;
+ 
+}
+
+
+.submit {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.submit input{
+    background-color: #10266e;
+    color: white;
+    padding: 12px 35px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.submit input:hover{
+    background-color: #263fa0;
+}
+
+
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+
+body{
+    padding: 35px 12px;
+
+    background-color: #e5f1ff;
+
+
+    background-image:
+       radial-gradient(circle at top left, #07158c 100px, transparent 101px),
+       radial-gradient(circle at top right, #07158c 100px, transparent 101px),
+       radial-gradient(circle at bottom left, #07158c 100px, transparent 101px),
+       radial-gradient(circle at bottom right, #07158c 100px, transparent 101px)
+
+    
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

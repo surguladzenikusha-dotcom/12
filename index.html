@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <h5>ABC Solution</h5>
+        <h1>SERVICE REQUEST FORM</h1>
+    <section>
+        <div class="container" >
+           <div class="info-1 mb-13">
+             <p>Costumer information:</p>
+           </div>
+           <div class="name mb-13">
+            Costumer Name: <input type="text" name="name" id="name">  <br>  
+            Home Address: <input type="text" name="address" id="address"> <br>
+            Contact Number: <input type="text" name="contact" id="contact"> <br>
+            Email Address: <input type="text" name="email" id="email"> <br>
+           </div>
+              <div class="info-2mb-13">
+                <p>Service Request Details:</p>
+              </div>
+                <div class="service mb-13">
+                 Requested: <input type="radio" name="Repair" id="service">
+                <label for="service">Repair</label>
+                <input type="radio" name="Maintenance" id="service">
+                <label for="service">Maintenance</label>
+                <input type="radio" name="Installation" id="service">
+                <label for="service">Installation</label>
+                <input type="radio" name="Others" id="service">
+                <label for="service">Others</label>
+                <br>
+                <label for="service">Service Description:</label>
+                <textarea name="service-description" id="service-description" cols="30" rows="5"></textarea>
+                <br>
+                <label for="service">Preferred Time and Date:</label>
+                <input type="datetime-local" name="preferred-datetime" id="preferred-datetime">
+                <br>
+                <label for="service">Urgency Level:</label>
+                <select name="urgency" id="urgency">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                    <option value="emergency">Emergency</option>
+                </select>
+                </div>
+                <div class="info-3 mb-13">
+                    <p>Approval</p>
+                </div>
+                <div class="approval mb-13">
+                Applicant Name: <input type="text" name="applicant-name" id="applicant-name">
+                Request submission date: <input type="date" name="submission-date" id="submission-date">
+                </div>
+                <div class="info-4 mb-13">
+                    <p>Service Personnel</p>
+                </div>
+                <div class="service-personnel mb-13">
+                Completed by: <input type="text" name="completed-by" id="completed-by">
+                Date: <input type="date" name="completion-date" id="completion-date">
+                <br>
+                Approved by: <input type="text" name="approved-by" id="approved-by">
+                Date: <input type="date" name="approval-date" id="approval-date">
+                <br>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+                </div>
+        </div>
+              
+    </section>
+
+    <div class="footer" class="mb-13">
+        <p>&copy; By TT 11/05/2026</p>
+    </div>
+
+</body>
+</html>
