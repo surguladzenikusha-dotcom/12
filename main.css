@@ -161,21 +161,10 @@ select:focus{
 body{
     padding: 35px 12px;
 
-    background-color: #e5f1ff;
+    background-color: #e5f1ff;}
 
 
-    background-image:
-       radial-gradient(circle at top left, #07158c 100px, transparent 101px),
-       radial-gradient(circle at top right, #07158c 100px, transparent 101px),
-       radial-gradient(circle at bottom left, #07158c 100px, transparent 101px),
-       radial-gradient(circle at bottom right, #07158c 100px, transparent 101px)
-
-    
-    
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-}
-
+  
 
 
 
